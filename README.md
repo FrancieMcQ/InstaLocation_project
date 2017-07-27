@@ -20,6 +20,6 @@ First, run every cell/function after the cell that begins with "def everything" 
 
 7) groundtruth_setup.csv: Contains the same columns as the above groundtruth.csv, except without the "is_location?" or "is_home?" columns, incase you wanted to redo the ground truth, or add more data to it. 
 
-8)lr_filtered_for_f2.csv: A "ground_truth" file that is the result of using a Logistic Regression Model to predict actual locations, and creating a "filtered" list of only actual locations to be passed to filter 2. The "is_home?" column contains the manually added response for the filter 2 models. 
+8) lr_filtered_for_f2.csv: A "ground_truth" file that is the result of using a Logistic Regression Model to predict actual locations, and creating a "filtered" list of only actual locations to be passed to filter 2. The "is_home?" column contains the manually added response for the filter 2 models. 
  
 9) state_abbreviations.csv: Contains a list of the 50 US states and their 2-letter abbreviations. Used to make a compiled regex for whole word search. Desired Column Name: "Abbreviation"
